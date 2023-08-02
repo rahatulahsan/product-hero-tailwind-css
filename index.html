@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <title>Product Page</title>
+</head>
+<body>
+    <!--Container-->
+    <div class="px-5 py-6 flex flex-col gap-5 lg:p-16 2xl:px-56">
+        <!--Breadcumb-->
+        <div class="flex flex-row items-center lg:w-1/2">
+            <span class="font-sans font-bold text-violet-600 text-xs">Home</span>
+            <iconify-icon icon="ic:round-chevron-right"></iconify-icon>
+            <span class="font-sans font-bold text-violet-600 text-xs">Furniture</span>
+            <iconify-icon icon="ic:round-chevron-right"></iconify-icon>
+            <span class="font-sans font-bold text-black text-xs">CH24 Wishbone Chair</span>
+        </div>
+        <!--Products Container-->
+        <div class="flex flex-col gap-6 lg:flex-row 2xl:gap-5">
+            <!--Products Image-->
+            <div class="relative xl:w-2/4 2xl:w-2/4">
+                <img src="/assets/images/image-02.jpg" alt="product image" />
+                <span class="bg-violet-500 text-white w-fit px-2 py-1 text-xs font-semibold absolute top-4 left-4">SALE!</span>
+            </div>
+            <!--Products Details-->
+            <div class="flex flex-col gap-5 xl:w-2/5 2xl:w-2/4">
+                <h1 class="font-sans font-bold text-3xl text-zinc-900">CH24 Wishbone Chair</h1>
+                <div class="flex flex-row relative">
+                    <h3 class="text-lg text-zinc-800 font-bold">$69.00</h3>
+                    <span class="text-zinc-500 line-through font-bold text-sm absolute top-1 left-16">$79.00</span>
+                </div>
+                <div class="space-y-6">
+                    <p class="font-sans font-base text-zinc-900 font-normal">Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre, 
+                    vide viderer eleifend ex mea. His at soluta regione diceret, cum et atqui placerat petentium.Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. 
+                    </p>
+                    <p class="font-sans font-base text-zinc-900 font-normal">Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre, 
+                    vide viderer eleifend ex mea. His at soluta regione diceret, cum et atqui placerat petentium.re, 
+                    </p>
+                </div>
+                <div class="border-b border-zinc-300"></div>
+                <button class="bg-violet-600 w-1/2 text-white uppercase px-6 py-5 font-sans font-semibold">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
