@@ -742,29 +742,29 @@ video {
   .xl\:w-2\/5 {
     width: 40%;
   }
+
+  .xl\:p-20 {
+    padding: 5rem;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:w-2\/4 {
+  .\32xl\:w-1\/2 {
     width: 50%;
-  }
-
-  .\32xl\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .\32xl\:w-min {
-    width: -moz-min-content;
-    width: min-content;
   }
 
   .\32xl\:w-2\/5 {
     width: 40%;
-  }
-
-  .\32xl\:w-1\/2 {
-    width: 50%;
   }
 
   .\32xl\:gap-5 {
@@ -776,12 +776,9 @@ video {
     padding-right: 14rem;
   }
 
-  .\32xl\:pl-5 {
-    padding-left: 1.25rem;
-  }
-
-  .\32xl\:pl-8 {
-    padding-left: 2rem;
+  .\32xl\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   .\32xl\:pl-7 {
